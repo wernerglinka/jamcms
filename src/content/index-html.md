@@ -12,3 +12,5 @@ rating: 3
 * _Justo_
 
 Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor.
+
+<a href="www.apple.com" class="this-is-a-class">Apple</a>
