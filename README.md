@@ -1,4 +1,4 @@
-# mStart - a Metalsmith Starter
+# jamcms - a Metalsmith Starter with NetlifyCMS Integration
 
 I am modernizing my Metalsmith starter with Gulp 4 and Parcel so I can finally use modern Javascript.
 
