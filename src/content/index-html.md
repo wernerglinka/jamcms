@@ -8,15 +8,11 @@ rating: 3
 <div class="container">
 <h1>This is a new home page</h1>
 
-_<ul>_
-
-_<li>Amet Mollis</li>_
-
-_<li>Parturient Dapibus</li>_
-
-_<li>Justo</li>_
-
-_</ul>_
+<ul>
+<li>Amet Mollis</li>
+<li>Parturient Dapibus</li>
+<li>Justo</li>
+</ul>
 
 <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor.</p>
 
