@@ -6,13 +6,18 @@ thumbnail: /assets/images/industry-night-2.jpg
 rating: 3
 ---
 <div class="container">
-# This is a new home page
+<h1>This is a new home page</h1>
 
-* _Amet Mollis_ 
-* _Parturient Dapibus_ 
-* _Justo_
-</div>
+_<ul>_
 
-Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor.
+_<li>Amet Mollis</li>_
+
+_<li>Parturient Dapibus</li>_
+
+_<li>Justo</li>_
+
+_</ul>_
+
+<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor.</p>
 
 <a href="www.apple.com" class="this-is-a-class">Apple</a>
