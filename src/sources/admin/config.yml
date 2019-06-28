@@ -7,7 +7,7 @@ public_folder: "/assets/images" # The src attribute for uploaded media will begi
 
 collections:
   - name: "home" # Used in routes, e.g., /admin/collections/blog
-    label: "Hpme Page" # Used in the UI
+    label: "H0me Page" # Used in the UI
     folder: "/src/content" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "/index.html" # Filename template, e.g., YYYY-MM-DD-title.md
