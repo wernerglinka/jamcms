@@ -1,0 +1,20 @@
+#toTop {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  transition: all .5s ease 0s;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0,0,0,0.4);
+  
+  svg {
+    position: relative;
+    top: 7px;
+  }
+}

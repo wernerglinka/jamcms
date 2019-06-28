@@ -1,0 +1,22 @@
+<nav class="main-navigation" role="navigation" aria-label="Main menu">
+    <ul class="main-menu">
+        {% for link in data.nav %}
+            {% if link.isLink %}
+            <li class="{{ link.linkClass }}">
+                <a href="{{ link.url }}">{{ link. title }}</a>
+            {% else %}
+            <li class="{{ link.linkClass }}">
+                <span id="{{link.title | condenseTitle}}Dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }}</span>
+            {% endif %}
+            {% if link.submenu %}
+            <ul class="dropdown-menu" aria-labelledby="{{link.title | condenseTitle}}Dropdown">
+                {% for sublink in link.submenu %}
+                <li class="{{sublink.linkClass}}">
+                    <a href="{{ sublink.url }}">{{ sublink.title}}</a>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</nav>

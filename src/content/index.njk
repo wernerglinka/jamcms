@@ -1,0 +1,88 @@
+---
+layout: default.njk
+title: "The Home page"
+description: "Page specific description of the home page"
+
+# router name for page transitions
+routerPageName: home
+
+# Import global site metadata - to be used in <head>
+data: 
+  site: "!siteData.yml"
+  nav: "!navigation.yml"
+  
+includeSocialMetaData: true
+
+# Banner elements
+pageTitle: "Metalsmith Starter"
+---
+
+{% block banner %}
+{% include "partials/banner.njk" %}
+{% endblock %}
+
+<div class="row">
+  <div class="column column__full-width">
+    <section class="column-content quaternary-color">
+      <h1>Build System</h1>
+      <p>This Metalsmith Starter uses a Gulp 4 workflow and the Nunjucks templating engine.</p>
+      <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Donec sed odio dui. Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+    
+      <p>Nulla vitae elit libero, a pharetra augue. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna. Nulla vitae elit libero, a pharetra augue.</p>
+    </section>
+  </div>
+</div>
+
+<div class="row"> 
+  <div class="column column__two-third-width">
+    <section class="column-content bottom-space">
+      <h1>Module with 2/3 width</h1>
+      <ul class="default-list">
+        <li>Nibh Dapibus Nullam Tellus</li>
+        <li>Ullamcorper Cursus Condimentum</li>
+        <li>Tellus Sem Ridiculus Amet Mollis</li>
+        <li>Sit Porta</li>
+      </ul>
+    </section>
+    <section class="column-content full-image">
+      <img class="image-responsive"
+           srcset="/assets/images/folder1/test1-small.jpg 500w,
+               /assets/images/folder1/test1-medium.jpg 800w,
+               /assets/images/folder1/test1-large.jpg 1200w"
+           src="/assets/images/folder1/test1-large.jpg" alt="rusty stuff">
+    </section>
+  </div>
+  <div class="column column__one-third-width">
+    <section class="column-content dark-bg full-height">
+      <h1>Module with 1/3 width</h1>
+      <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+    </section>
+  </div>
+</div>
+
+<div class="row">
+  <div class="btn-row center">
+    <a href="/contact/" class="btn btn_primary btn_large">Click me to see</a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column column__one-third-width">
+    <section class="column-content primary-color">
+      <h1>Module with 1/3 width</h1>
+      <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+    </section>
+  </div>
+  <div class="column column__one-third-width">
+    <section class="column-content secondary-color">
+      <h1>Module with 1/3 width</h1>
+      <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+    </section>
+  </div>
+  <div class="column column__one-third-width">
+    <section class="column-content tertiary-color">
+      <h1>Module with 1/3 width</h1>
+      <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+    </section>
+  </div>
+</div>

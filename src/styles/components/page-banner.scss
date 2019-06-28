@@ -1,0 +1,43 @@
+// A page banner may have an image
+// If an image is used, the height of the banner is determined  by the image height
+// If no image is used the height is determined by margins of the page banner element
+
+.page-banner {
+  position: relative;
+  // compensate for header height and content padding so banner starts at very top of page
+  margin-top: -$header-height;
+}
+.page-banner__background-image {
+  width: 100%;
+}
+.page-banner__message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -200px;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    font-size: 40px;
+  }
+  h1, p {
+    text-shadow: 0px 0px 10px #fff; 
+  }
+}
+.page-banner_no-image {
+  margin-top: 0;
+  padding: 100px 0;
+}
+.page-banner__title,
+.page-banner__sub-title {
+  text-align: center;
+  text-shadow: 0px 0px 10px #fff; 
+}
+.page-banner__title {
+  margin: 0;
+  font-size: 40px;
+}

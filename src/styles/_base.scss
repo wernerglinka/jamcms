@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: $text-color;
+  line-height: 1.4;
+  padding: $body-padding;
+}
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+ul, ol, li {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.container {
+  width: 100%;
+  max-width: $max-content-width;
+  margin: 0 auto;
+  padding: 0 $default-side-padding;
+}
+section.primary-color {
+  background-color: $primary-color;
+}
+section.secondary-color {
+  background-color: $secondary-color;
+}
+section.tertiary-color {
+  background-color: $tertiary-color;
+}
+section.quaternary-color {
+  background-color: $quaternary-color;
+}

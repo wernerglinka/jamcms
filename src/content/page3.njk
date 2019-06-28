@@ -1,0 +1,38 @@
+---
+layout: default.njk
+title: "Page 3"
+
+# router name for page transitions
+routerPageName: page3
+
+# Import global site metadata - to be used in <head>
+data: 
+  site: "!siteData.yml"
+  nav: "!navigation.yml"
+
+includeSocialMetaData: true
+
+---
+  
+<section class="container">
+  <h1>Page 3</h1>
+  <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum.</p>
+  
+  <p>Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Etiam porta sem malesuada magna mollis euismod.</p>
+  
+  <img class="image-responsive w500"
+       srcset="/assets/images/folder3/test4-small.jpg 500w,
+               /assets/images/folder3/test4-medium.jpg 800w,
+               /assets/images/folder3/test4-large.jpg 1200w"
+       src="/assets/images/folder3/test4-large.jpg" alt="Robots">
+  
+  <p>Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor.</p>
+  
+  <img class="image-responsive w500"
+       srcset="/assets/images/folder1/test1-small.jpg 500w,
+               /assets/images/folder1/test1-medium.jpg 800w,
+               /assets/images/folder1/test1-large.jpg 1200w"
+       src="/assets/images/folder1/test1-large.jpg" alt="rusty stuff">
+  
+  <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+</section>

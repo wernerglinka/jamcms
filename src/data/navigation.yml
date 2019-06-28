@@ -1,0 +1,36 @@
+- title: Home
+  isLink: true
+  url: /
+  linkClass: home-link
+  
+- title: More Pages
+  isLink: false
+  linkClass: page-2-link dropdown
+  submenu:
+    - title: Go toPage 1
+      url: /page1/
+      linkClass: page1-link
+    - title: Go to Page 2
+      url: /page2/
+      linkClass: page2-link
+
+- title: Page 3
+  isLink: true
+  url: /page3/
+  linkClass: page-3-link
+
+- title: Even More Pages
+  isLink: false
+  linkClass: page-4-link dropdown
+  submenu:
+    - title: Go to Page 2
+      url: /page2/
+      linkClass: page2-link
+    - title: Go to Page 3
+      url: /page3/
+      linkClass: page3-link
+
+- title: Contact
+  isLink: true
+  url: /contact/
+  linkClass: contact-link

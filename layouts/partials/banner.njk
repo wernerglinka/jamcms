@@ -1,0 +1,17 @@
+<div class="page-banner{% if not bannerBackgroundImage %} page-banner_no-image{% endif %}">
+  {% if bannerBackgroundImage %}
+  <img class="page-banner__background-image" 
+       srcset="{{ bannerBackgroundImage }}-small.jpg 500w, 
+               {{ bannerBackgroundImage }}-medium.jpg 800w, 
+               {{ bannerBackgroundImage }}-large.jpg 1200w,
+               {{ bannerBackgroundImage }}.jpg 2000w"
+       src="{{ bannerBackgroundImage }}.jpg" alt="" >
+  <div class="page-banner__message">
+    <h1>{{ pageTitle }}</h1>
+    {% if pageSubtitle %}<p>{{ pageSubtitle }}</p>{% endif %}
+  </div>
+  {% else %}
+  <h1 class="page-banner__title">{{ pageTitle }}</h1>
+  {% if pageSubtitle %}<p class="page-banner__sub-title">{{ pageSubtitle }}</p>{% endif %}
+  {% endif %}
+</div>

@@ -1,0 +1,80 @@
+.main-navigation {
+
+  ul {
+    list-style: none;
+  }
+  .main-menu {
+    display: flex;
+    justify-content: flex-end;
+    height: $nav-bar-height;
+
+    > li {
+      height: 100%;
+      position: relative;
+
+      a, span {
+        display: block;
+        padding: 0 15px;
+        color: $main-nav-color;
+        text-decoration: none;
+        font-size: $main-nav-font-size;
+        line-height: $nav-bar-height;
+        background-color: transparent;
+        transition: all 0.3s;
+
+        &.is-active {
+          color: red;
+        }
+
+        &:hover {
+          cursor: pointer;
+          color: red;                       
+        }
+      }
+
+      span:after {
+        content: "+";
+        padding-left: 5px;
+      }
+
+      &.open > span {
+        color: $dropdown-text-color;
+        background-color: $dropdown-background-color;
+
+        &:after {
+          content: "-";
+        }
+      }
+    }
+  }
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: transparent;
+    min-width: 100%;
+    // hide the dropdown menu but leave in DOM so screen readers can read it
+    overflow: hidden;
+    height: 0;
+    width: auto;
+    padding: 0;
+    transition: all 0.3s;
+
+    li {
+      > a, > span {
+        line-height: 2em;
+        white-space: nowrap;
+        color: $dropdown-text-color;
+
+        &.is-active {
+          color: red;
+        }
+      }
+    } 
+  }
+  .open .dropdown-menu {
+    padding: 20px 0;
+    height: auto;
+    background-color: $dropdown-background-color;
+  }
+}

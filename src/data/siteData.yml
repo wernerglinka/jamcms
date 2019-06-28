@@ -1,0 +1,19 @@
+title: ms1
+locale: en_US
+urlL: https://www.ms1.com
+description: A Metalsmith Starter 
+owner:
+    name: siteowner
+    email: info@ms1.com
+    tel: 123-456-7890
+    disqus_shortname: "disqus-name"
+    twitter: "@twittername"
+    facebook: "facebookname"
+    google:
+        analytics: 
+        verify:
+    bing_verify:
+    github: sitename
+    linkedin: sitename
+    marketo:
+        munchkin: 001-ABC-123

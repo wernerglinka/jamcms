@@ -1,0 +1,57 @@
+.row {
+  width: 100%;
+  max-width: $content-max-width;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+}
+.column {
+  padding: 10px;
+}
+.column-content {
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: $page-module-box-shadow;
+
+  h1 {
+    margin-top: 0;
+    line-height: 1;
+  }
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+.column__full-width {
+  width: $content-max-width;
+}
+.column__one-third-width {
+  flex: 0 0 calc(33.3333%);
+}
+.column__two-third-width {
+  flex: 0 0 calc(66.6666%);
+}
+
+.bottom-space {
+  margin-bottom: 20px;
+}
+
+// applied to a container wthat contains an image
+// image will fill container width
+.full-image {
+  padding: 0;
+
+  img {
+    display: block;
+  }
+}
+// applied to an element inside a flex child
+.full-height {
+  height: 100%;
+}
+
+.btn-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}

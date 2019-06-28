@@ -1,0 +1,36 @@
+---
+layout: default.njk
+title: "Page 2"
+
+# router name for page transitions
+routerPageName: page2
+
+# Import global site metadata - to be used in <head>
+data: 
+  site: "!siteData.yml"
+  nav: "!navigation.yml"
+
+includeSocialMetaData: true
+
+---
+
+<section class="container">
+  <h1>Page 2</h1>
+  <p>Etiam porta sem malesuada magna mollis euismod. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec sed odio dui. Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+
+  <img class="image-responsive w500"
+      srcset="/assets/images/folder2/test2-small.jpg 500w,
+              /assets/images/folder2/test2-medium.jpg 800w,
+              /assets/images/folder2/test2-large.jpg 1200w"
+      src="/assets/images/folder2/test2-large.jpg" alt="concrete beams">
+
+  <p>Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor.</p>
+
+  <img class="image-responsive w500"
+      srcset="/assets/images/folder3/test3-small.jpg 500w,
+              /assets/images/folder3/test3-medium.jpg 800w,
+              /assets/images/folder3/test3-large.jpg 1200w"
+      src="/assets/images/folder3/test3-large.jpg" alt="An electro motor">
+
+  <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.</p>
+</section>

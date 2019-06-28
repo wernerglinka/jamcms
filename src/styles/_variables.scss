@@ -1,0 +1,41 @@
+// color palette
+$primary-color: #7796c4;
+$secondary-color: #dde271;
+$tertiary-color: #c1d4ed;
+$quaternary-color: #d1d8e7;
+
+$text-color: #4f4f4f;
+$highlight-color: #f3f6fa;
+$dark-bg: #062033;
+
+
+// header
+$header-height: 80px;
+
+// body
+$body-padding: $header-height 0 0;
+$body-padding-with-banner: 0;
+
+// global styles
+$max-content-width: 1280px;
+$default-side-padding: 15px;
+
+// main nav
+$nav-bar-height: $header-height;
+// main nav typography
+$main-nav-color: #333;
+$main-nav-font-size: 1rem;
+// main nav dropdowns
+$dropdown-background-color: rgba(17, 17, 17, 0.9);
+$dropdown-text-color: #ccc;
+
+// content section
+$content-max-width: 960px;
+
+
+// footer
+$footer-background-color: rgba(17, 17, 17, 0.5);
+
+// page modules
+$page-module-bg-default: rgba(255, 255, 255, 1);
+$page-module-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.75);

@@ -1,0 +1,29 @@
+---
+layout: default.njk
+title: "Page 1"
+
+# router name for page transitions
+routerPageName: page1
+
+# Import global site metadata - to be used in <head>
+data: 
+  site: "!siteData.yml"
+  nav: "!navigation.yml"
+ 
+
+
+includeSocialMetaData: true
+
+---
+<section class="container">
+  <h1>Page 1</h1>
+  <p>Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+
+  <img class="image-responsive w500"
+      srcset="/assets/images/folder1/cover-small.png 500w,
+              /assets/images/folder1/cover-medium.png 800w,
+              /assets/images/folder1/cover-large.png 1200w"
+      src="/assets/images/folder1/cover-large.png" alt="An electro motor">
+
+  <p>Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+</section>

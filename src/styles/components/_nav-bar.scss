@@ -1,0 +1,22 @@
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: $nav-bar-height;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+
+  .main-logo {
+    position: relative;
+    top: 10px;
+    display: block;
+    max-width: 60px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}

@@ -1,0 +1,19 @@
+.home {
+  position: relative;
+  
+  // this allow to control of the background imahe opacity
+  &::after {
+    content: "";
+    background: url('/assets/images/backgrounds/main-background.png');
+    background-position: top $header-height center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+}
