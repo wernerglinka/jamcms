@@ -72,6 +72,12 @@ module.exports = function metalsmith(callback) {
         destination: './assets/',
       })
     )
+    .use(
+      assets({
+        source: './src/sources/admin/',
+        destination: './admin/',
+      })
+    )
 
     // Show all metadata for each page in console
     // Used for Debug only
