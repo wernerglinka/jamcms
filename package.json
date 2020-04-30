@@ -40,7 +40,7 @@
     "gulp-uglify": "^3.0.2",
     "gulp-util": "^3.0.8",
     "intersection-observer": "^0.7.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jquery.easing": "^1.4.1",
     "jstransformer": "^1.0.0",
     "jstransformer-nunjucks": "^1.0.0",
